@@ -51,7 +51,12 @@ console.log('I am a sad line...I will not be printed to console :(');
 
 let exercise = 0;
 
-// Your code here!
+function exit() {
+    console.log('Exercise ' + exercise + ' completed.');
+    process.exit(0);
+}
+
+exit()
 
 // c. Bonus. Did you realize that JavaScript/Node.JS has three different ways
 // of declaring a function?
@@ -88,4 +93,4 @@ exercise = 1;
 
 require('dotenv').config();
 
-// exit();
+exit();

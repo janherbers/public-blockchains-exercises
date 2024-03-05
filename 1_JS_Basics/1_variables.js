@@ -136,9 +136,8 @@ console.log('The type of Morpho is now: ' + typeof morpho);
 // subtypes, such as positive-only, floating point, etc, to save space
 // in memory. However, your life is easier, they are all numbers.
 
-
 // Strings
-
+morpho = "string";
 
 console.log('Morpho: ' + morpho);
 console.log('The type of Morpho is now: ' + typeof morpho);
@@ -152,6 +151,7 @@ console.log('Morpho: ' + morpho);
 console.log('The type of Morpho is now: ' + typeof morpho);
 
 // Booleans.
+morpho = true;
 
 // False.
 
@@ -171,6 +171,7 @@ console.log('Morpho: ' + morpho);
 console.log('The type of Morpho is now: ' + typeof morpho);
 
 // Null
+morpho = null;
 
 console.log('Morpho: ' + morpho);
 console.log('The type of Morpho is now: ' + typeof morpho);
